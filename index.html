@@ -14,11 +14,10 @@
           body,
           html {
                height: 100%;
-               margin: 0;
+               margin: 10px;
                display: flex;
                align-items: center;
                justify-content: center;
-               flex-direction: column;
                background-image: url('https://images.unsplash.com/photo-1558066858-246fbbf9446f?q=80&w=2754&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
                background-size: cover;
                background-position: center;
@@ -28,6 +27,7 @@
                width: 80%;
                max-width: 600px;
                min-width: 400px;
+               height: 100%;
                display: flex;
                flex-direction: column;
                align-items: center;
@@ -37,7 +37,7 @@
                color: #634133;
                font-size: 1.5em;
                padding-bottom: 50px;
-               margin: 20px; /* Adding margin to provide spacing */
+               margin-bottom: 50px;
           }
 
           .inner-box {
@@ -55,7 +55,9 @@
           }
 
           .inner-box img {
-               max-height: 300px;
+               padding-top: 30px;
+               margin-top: 30px;
+               height: 300px;
                border-radius: 8px;
                object-fit: cover;
           }
@@ -106,6 +108,7 @@
                left: 50%;
                transform: translate(-50%, -50%);
                padding: 20px;
+               /* Increased padding */
                background-color: #333;
                color: #fff;
                border-radius: 10px;
@@ -114,7 +117,9 @@
                text-align: center;
                max-width: 60%;
                width: 250px;
+               /* Fixed width */
           }
+
 
           .popup a {
                color: #ffdd57;
@@ -130,7 +135,7 @@
                border-radius: 5px;
                color: #333;
                cursor: pointer;
-               font-size: large;
+               font-size: x-large;
           }
      </style>
 </head>
@@ -139,7 +144,10 @@
 
      <div class="center-box">
           <div class="inner-box">
-               <img style="padding-top: 30px;margin-top: 30px;" src="image.png" alt="Imagem de Formatura">
+               <br>
+          </div>
+          <div class="inner-box">
+               <img  src="image.png" alt="Imagem de Formatura">
           </div>
           <div class="inner-box">
                <p style="text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.864);">

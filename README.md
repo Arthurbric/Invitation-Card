@@ -22,7 +22,7 @@ This project is a digital invitation card created for a graduation event. It com
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/graduation-invitation.git
+   git clone https://github.com/Arthurbric/Invitation-Card.git
    cd graduation-invitation
    ```
 
@@ -38,6 +38,3 @@ For feedback or collaboration, feel free to reach out:
 
 * Email: [Arthur Arash](mailto:arthurarash.bric@gmail.com)
 
----
-
-Feel free to adjust any details or let me know if there’s anything specific you’d like to add or emphasize!

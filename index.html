@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Convite de Formatura | Arthur Arash</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/42/42972.png" type="image/png">
   <meta name="description" content="Convite digital de formatura com confirmação de presença via WhatsApp." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -48,15 +49,15 @@
       pointer-events: none;
       opacity: 0.2;
       background-image:
-        linear-gradient(to right, rgba(100, 136, 197, 0.2) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(100, 136, 197, 0.2) 1px, transparent 1px);
+        linear-gradient(to right, rgba(255, 255, 255, 0.4) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 1px, transparent 1px);
       background-size: 28px 28px;
       mask-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.8) 80%, transparent);
       z-index: 0;
     }
 
     .invite {
-      width: min(920px, 100%);
+      width: min(600px, 100%);
       border-radius: 28px;
       border: 1px solid var(--line);
       background: linear-gradient(155deg, rgba(19, 31, 53, 0.78), rgba(12, 20, 34, 0.86));
@@ -77,7 +78,7 @@
 
     .hero {
       position: relative;
-      min-height: 280px;
+      min-height: 400px;
       padding: 20px;
       display: grid;
       align-content: end;
@@ -85,7 +86,7 @@
       background-color: var(--bg-secondary);
       background-image:
         linear-gradient(to bottom, rgba(6, 9, 17, 0.1), rgba(6, 9, 17, 0.65)),
-        url('image.png');
+        url('img3_1.png');
       /* EDITAR FOTO: troque "image.png" pelo caminho da sua foto */
       background-size: cover;
       background-position: center;
@@ -253,12 +254,12 @@
 
   <main class="invite" aria-label="Convite de Formatura">
     <section class="hero" aria-label="Foto principal do convite">
-      <span class="hero-tag">Substitua pela sua foto</span>
+      <span class="hero-tag">🎉Bora comemorar juntos!🥳</span>
     </section>
 
     <section class="content">
       <header>
-        <h1>Arthur Arash · Convite de Formatura 🎓</h1>
+        <h1>Arthur Arash · Comemoração de Formatura 🎓</h1>
         <p class="subtitle">
           É com muita alegria que convido você para celebrar esse momento especial comigo.
         </p>
@@ -267,16 +268,16 @@
       <section class="info-grid" aria-label="Dados principais do evento">
         <article class="info">
           <div class="label">Data</div>
-          <div class="value">7/03</div>
+          <div class="value">07/03 -> 7 de março(Sábado)</div>
         </article>
         <article class="info">
           <div class="label">Horário</div>
           <div class="value">12:00 (meio-dia)</div>
         </article>
-        <article class="info">
+        <!-- <article class="info">
           <div class="label">Contato</div>
           <div class="value" id="whatsappDisplay">+55 61 98624-1548</div>
-        </article>
+        </article> -->
       </section>
 
       <section class="address" aria-label="Local do evento">
@@ -301,7 +302,8 @@
       </section>
 
       <footer class="footer">
-        Desenvolvido para celular e desktop • tema elegante com toque de tecnologia.
+        <!-- Desenvolvido para celular e desktop • tema elegante com toque de tecnologia. -->
+          Criado por <b> <a href="https://arash.com.br/" target="_blank" style="color: var(--accent); text-decoration: none; font-size: 0.96rem;">Arthur Arash Bricñeo Heidari</a> </b>
       </footer>
     </section>
   </main>
